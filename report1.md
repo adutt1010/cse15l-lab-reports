@@ -19,3 +19,13 @@ The second time the command was run, I entered a path to folder lecture1 and it 
 
 The third time the command was run resulted in the terminal giving us the path to the file. The argument I gave was the path to the file es-mx.txt, and it gave us the path to just that file. The directory did not change when we ran that command.
 
+
+cat:
+
+![image](https://github.com/adutt1010/cse15l-lab-reports/assets/146874656/043b7945-a678-4a79-9969-eaa803b52565)
+
+The first time the cat command was run, nothing happened. I think it was expecting some input, so I pressed ctrl+z to exit the input part. I then checked the directory to see if anything had changed but we were in the home directory.
+
+The second time I ran it, I entered a path to the folder lecture1 and it told me that what I had entered was a directory. The directory still hadn't changed. 
+
+The third time I ran it, it entered the path to a file as the argument, and it printed the contents of the file I entered.
