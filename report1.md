@@ -28,4 +28,4 @@ The first time the cat command was run, nothing happened. I think it was expecti
 
 The second time I ran it, I entered a path to the folder lecture1 and it told me that what I had entered was a directory. The directory still hadn't changed. 
 
-The third time I ran it, it entered the path to a file as the argument, and it printed the contents of the file I entered.
+The third time I ran it, it entered the path to a file as the argument, and it printed the contents of the file I entered. The directory did not change and remained home.
