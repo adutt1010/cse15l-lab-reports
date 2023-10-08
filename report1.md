@@ -2,7 +2,7 @@ Lab report 1:
 
 cd:
 
-![image](https://github.com/adutt1010/cse15l-lab-reports/assets/146874656/49525fbe-5c5a-4f28-a49e-04afa1867ac9)
+![Image](report1cd.png)
 The first time the cd command was run, it set the directory as home, which is shown when I used the command pwd.
 
 The second time I ran the cd command with an argument of the messages directory, it set the directory to home/lecture1/messages.
@@ -12,7 +12,7 @@ The third time I ran the cd command with an argument of the fr.txt file located 
 
 ls:
 
-![image](https://github.com/adutt1010/cse15l-lab-reports/assets/146874656/cbda849f-9237-4f33-97a3-40a43e4bc3fa)
+![Image](15lLS.png)
 The first time the ls command was run, it showed us the contents of the default directory that we were in which is home. THe reason it shows us the contents of home was becasue we entered no arguments and as a result it showed us the directory that were initially in. 
 
 The second time the command was run, I entered a path to folder lecture1 and it showed us the contents in that folder. The reason for this is becasue I entered lecture1 as the argument and as a result it gave us the contents of lecture1. It did not change the directory though which is shown when I ran pwd again.
@@ -22,7 +22,7 @@ The third time the command was run resulted in the terminal giving us the path t
 
 cat:
 
-![image](https://github.com/adutt1010/cse15l-lab-reports/assets/146874656/043b7945-a678-4a79-9969-eaa803b52565)
+![Image](15Lcat.png)
 
 The first time the cat command was run, nothing happened. I think it was expecting some input, so I pressed ctrl+z to exit the input part. I then checked the directory to see if anything had changed but we were in the home directory.
 
