@@ -1,9 +1,9 @@
-Lab report 1:
+### Lab report 1:
 
-cd:
+## cd:
 
 ![Image](report1cd.png)
-The first time the cd command was run, it set the directory as home, which is shown when I used the command pwd.
+The first time the cd command was run, it set the directory as `/home`, which is shown when I used the command `pwd`. Since there are no arguments it sets the directory to `/home` which is the default directory. In this case the directory didn't change because we were already in `/home`, but if we were in another directory and entered `cd`, it would've set the directory as `/home`.
 
 The second time I ran the cd command with an argument of the messages directory, it set the directory to home/lecture1/messages.
 
