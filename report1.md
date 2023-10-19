@@ -1,6 +1,6 @@
-### Lab report 1:
+## Lab report 1:
 
-## cd:
+### cd:
 
 ![Image](report1cd.png)
 The first time the `cd` command was run, it set the directory as `/home`, which is shown when I used the command `pwd`. Since there are no arguments it sets the directory to `/home` which is the default directory. In this case the directory didn't change because we were already in `/home`, but if we were in another directory and entered `cd`, it would've set the directory as `/home`.
@@ -10,7 +10,7 @@ The second time I ran the `cd` command with an argument `lecture1/messages`,whic
 The third time I ran the `cd` command with an argument of the `fr.txt` file located in the `/messages` directory, it gave us an error, as a file cannot be a directory. The directory did not change after running the command the third time, because previous argument was a filename, and as a result the directory is still `home/lecture1/messages`. So if you enter a filename as an argument to `cd`, it does not change the directory and gives us an error.
 
 
-## ls:
+### ls:
 
 ![Image](15lLS.png)
 The first time the `ls` command was run, it showed us the contents of the default directory that we were in, which is `/home`. The reason it shows us the contents of `/home` was because we entered no arguments and as a result it showed us the directory that were initially in. 
@@ -20,7 +20,7 @@ The second time the command was run, I entered a path to the directory `/lecture
 The third time the command was run resulted in the terminal giving us the path to the file. The argument I gave was the path to the file `es-mx.txt`, and it gave us the path to just that file. The directory did not change when we ran that command, which is shown we run `pwd`.
 
 
-## cat:
+### cat:
 
 ![Image](15Lcat.png)
 
