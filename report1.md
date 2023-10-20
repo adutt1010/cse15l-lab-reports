@@ -13,7 +13,7 @@ The third time I ran the `cd` command with an argument of the `fr.txt` file loca
 ### ls:
 
 ![Image](15lLS.png)
-The first time the `ls` command was run, it showed us the contents of the default directory that we were in, which is `/home`. The reason it shows us the contents of `/home` was because we entered no arguments and as a result it showed us the directory that were initially in. 
+The first time the `ls` command was run, it showed us the contents of the default directory that we were in, which is `/home`. The reason it shows us the contents of `/home` was because we entered no arguments and as a result it showed us the directory that were in at the time of running the command. 
 
 The second time the command was run, I entered a path to the directory `/lecture1` and it showed us the contents in that directory. The reason for this is beacuse I entered `/lecture1` as the argument and as a result it gave us the contents of `/lecture1`. It did not change the directory though which is shown when I ran `pwd` again.
 
