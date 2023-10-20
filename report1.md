@@ -28,4 +28,4 @@ The first time the `cat` command was run, nothing happened. I think it was expec
 
 The second time I ran it, I entered a path to the folder `/lecture1` and it told me that the input I had entered was a directory. I think the reason it gave this output was because it was expecting something else and was prompting me to give an appropriate input. The directory I was in still hadn't changed. 
 
-The third time I ran it, I entered the path to the file `es-us.txt` as the argument, and it printed the contents of the file I entered. The directory did not change and remained home.
+The third time I ran it, I entered the path to the file `es-us.txt` as the argument, which is `lecture1/messages/en-us.txt`, and it printed the contents of the file I entered. The directory did not change and remained home.
