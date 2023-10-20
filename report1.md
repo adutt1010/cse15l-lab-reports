@@ -3,7 +3,7 @@
 ### cd:
 
 ![Image](report1cd.png)
-The first time the `cd` command was run, it set the directory as `/home`, which is shown when I used the command `pwd`. Since there are no arguments it sets the directory to `/home` which is the default directory. In this case the directory didn't change because we were already in `/home`, but if we were in another directory and entered `cd`, it would've set the directory as `/home`.
+The first time the `cd` command was run, it set the directory as `/home`, which is shown when I used the command `pwd`. Since there are no arguments it sets the directory to `/home` which is the default directory. In this case the directory didn't change because we were already in `/home`, but if we were in another directory and entered `cd`, it would've set the directory to `/home`.
 
 The second time I ran the `cd` command with an argument `lecture1/messages`,which is the path to the messages directory, and it set the directory to `home/lecture1/messages`. The reason it set the directory to the argument I inputted, is because when I ran `cd`, it checked the argument I entered and chose the directory according to that, so it first checked if directory `/lecture1` exists, and then checked if `/messages` exists in `/lecture1`, and after that it set the directory to the `/lecture/messages`.  
 
