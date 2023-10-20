@@ -10,7 +10,7 @@
 ![image](images/how.jpeg).
 
 - The methods called in the screenshots is ```handleRequest```.
-- The arguments of ```handleRequest ``` is ```url``` which is a member of the ```URI``` class, and initially, the value is  ```localhost:2500/```, then it becomes ```localhost:2500/add-message?s=Hello```, and finally it becomes ```localhost:2500/add-message?s=How are you```.
+- The arguments of ```handleRequest ``` is ```url``` which is a member of the ```URI``` class, and initially, the value is  ```localhost:2500/```, then it becomes ```localhost:2500/add-message?s=Hello```, and finally it becomes ```localhost:2500/add-message?s=How%20are%20you ```.
 - ```public static void main(String[] args)```
 - ```public String handleRequest(URI url)```.
 - The arguments to ```public static void main(String[] args)``` are ```URI url``` which is te
