@@ -1,8 +1,14 @@
 ## Lab Report 2
 
+## Part 1
+
+### Code
+
 ![image](images/code1rep2.png)
 
 ![image](images/code2rep2.png)
+
+## Server
 
 ![image](images/hello.jpeg)
 
