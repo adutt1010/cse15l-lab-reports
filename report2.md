@@ -35,3 +35,7 @@
 
 ![image](images/term2.jpeg)
 
+
+## Part 3
+I learned a lot in the 2nd and 3rd lab. Some things include how to access remote servers from the terminal of our laptops. I believe that this would be incredibly helpful in internships where we may have to connect to remote server. I even learnt how to host a server on the internet and how online requests are processed. I even learnt multiple terminal commands like `mkdir` and `scp`.
+
