@@ -7,7 +7,7 @@ The first time the `cd` command was run, it set the directory as `/home`, which 
 
 The second time I ran the `cd` command with an argument `lecture1/messages`,which is the path to the messages directory, and it set the directory to `home/lecture1/messages`. The reason it set the directory to the argument I inputted, is because when I ran `cd`, it checked the argument I entered and chose the directory according to that, so it first checked if directory `/lecture1` exists, and then checked if `/messages` exists in `/lecture1`, and after that it set the directory to the `/lecture/messages`.  
 
-The third time I ran the `cd` command with an argument of the `fr.txt` file located in the `/messages` directory, it gave us an error, as a file cannot be a directory. The directory did not change after running the command the third time, because previous argument was a filename, and as a result the directory is still `home/lecture1/messages`. So if you enter a filename as an argument to `cd`, it does not change the directory and gives us an error.
+The third time I ran the `cd` command with an argument of the `fr.txt` file located in the `/messages` directory, it gave us an error, as a file cannot be a directory. The directory did not change after running the command the third time, because previous argument was a filename, and as a result the directory is still `/home/lecture1/messages`. So if you enter a filename as an argument to `cd`, it does not change the directory and gives us an error.
 
 
 ### ls:
