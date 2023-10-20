@@ -23,4 +23,11 @@
 
 ## Part 2
 
-Path to the private key.
+### Path to the private key.
+
+![image](images/privkey.jpeg)
+
+### Path to the public key.
+
+![image](images/pubkey.jpeg)
+
