@@ -29,7 +29,7 @@
 
 ### Path to the public key.
 
-![image](images/pubkey.jpeg)
+![image](images/pubkey.png)
 
 ### Logging into ieng6 account without password.
 
