@@ -50,7 +50,70 @@ public void testReverseInPlace() {
 In the previous code, the values for the first half of the array were replaced, but in the second half, the values were swapped incorrectly, because the values we were supposed to replace
 the second half with were gone because they were removed when the first half of the array was replaced. In the updated code, we created a second array that was used to store the values of 
 the old array, and we then went through each value of our original array and substituted it with the values of the new array from the last index. This way the values that are supposed to be
- supposed to be entered into the array
+ supposed to be entered into the array.
 
+## Part 2: Researching Commands
+### ```grep```
+#### `-i` command
+Example 1:
+```
+$ grep -i "study"  biomed/1468-6708-3-1.txt
+        events [ 10 ] . In this paper we study whether BMI at
+          Study design: The Cardiovascular Health
+          Study
+          The Cardiovascular Health Study (CHS) is a
+          population-based longitudinal study of 5,888 adults aged
+        from EVGFP) in the first seven years of the study, adjusted
+        CHS Cardiovascular Health Study
+```
+- The `-i` command is used to perfrom a case-insensitive search for patterns in the file thats given. This is useful for perfoming searches for patterns efficiently as case does not matter.
+- In this case I entered the word `"study"` as input and you can see that it gave an output of instances where study appears in both upper-case and lower-case.
 
+Example 2:
+```
+$ grep -i "winter"  biomed/1468-6708-3-1.txt biomed/1468-6708-3-1.txt biomed/1468-6708-3-1.txt
+```
+- It can also be used for checking patterns through multiple files.
+- In this case I used to it to search for places where the word `"winter"` shows up and since there are no instances of winter it does not give us an output.
 
+#### `-c` command
+Example 1:
+```
+$ grep -c "study"  biomed/1468-6708-3-1.txt
+3
+```
+- The `-c` command is used to count the number of lines in which the patter occurs. This is useful when dealing with large files and you want to determine the frequency of certain wrods in  a file.
+- In this case I entered `"study"`, and it shows me that it occurs on 3 lines.
+
+Example 2:
+```
+$ grep -c -e "study" -e "bio"  biomed/1468-6708-3-1.txt
+3
+```
+- It can also be used to check for multiple patterns using `-e`. It checks the file and sees lines that have any of the patterns. This is useful to optimize counting efficiency such that you dont have to repeatedly search for singular patterns at a time.
+- In this case it checks for both `"study"` and `"bio"`, and counts lines which have any of the two patterns.
+
+#### `-n` command
+Example 1:
+```
+$ grep -n "study"  biomed/1468-6708-3-1.txt
+34:        events [ 10 ] . In this paper we study whether BMI at
+50:          population-based longitudinal study of 5,888 adults aged
+194:        from EVGFP) in the first seven years of the study, adjusted
+```
+- The `-n` command is used to display the line numbers of lines that correspont to a pattern and the parts of the lines that correspond to the patters. It is useful when you are searching for specific keywords in the text and the information around them, and don't have the time to search for them manually.
+- In this case I enter `"study"` as the input and it returned the lines containing the pattern and the portion of the line that corresponds to `"study"`.
+
+Example 2:
+```
+$ grep -n -c "report" 911report/chapter-1.txt
+56
+
+```
+-Here we combine the `-n` and `-c` command line arguments to get the number of times a patthern appears in the file, in this case the patter I wanted to check was `"report"`. This can be useful when you want to find the frequency of certain words in the file for statistical purposes.
+
+#### `-r` command
+Example 1:
+```
+
+```
