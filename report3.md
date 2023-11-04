@@ -54,6 +54,7 @@ the old array, and we then went through each value of our original array and sub
 
 ## Part 2: Researching Commands
 ### ```grep```
+> **SOURCE: ChatGPT**
 #### `-i` command
 Example 1:
 ```
