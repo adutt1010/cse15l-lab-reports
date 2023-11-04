@@ -56,7 +56,7 @@ the old array, and we then went through each value of our original array and sub
 ### ```grep```
 > **Source: ChatGPT**
 #### `-i` command
-Example 1:
+**Example 1:**
 ```
 $ grep -i "study"  biomed/1468-6708-3-1.txt
         events [ 10 ] . In this paper we study whether BMI at
@@ -70,7 +70,7 @@ $ grep -i "study"  biomed/1468-6708-3-1.txt
 - The `-i` command is used to perfrom a case-insensitive search for patterns in the file thats given. This is useful for perfoming searches for patterns efficiently as case does not matter.
 - In this case I entered the word `"study"` as input and you can see that it gave an output of instances where study appears in both upper-case and lower-case.
 
-Example 2:
+**Example 2:**
 ```
 $ grep -i "winter"  biomed/1468-6708-3-1.txt biomed/1468-6708-3-1.txt biomed/1468-6708-3-1.txt
 ```
@@ -78,7 +78,7 @@ $ grep -i "winter"  biomed/1468-6708-3-1.txt biomed/1468-6708-3-1.txt biomed/146
 - In this case I used to it to search for places where the word `"winter"` shows up and since there are no instances of winter it does not give us an output.
 
 #### `-c` command
-Example 1:
+**Example 1:**
 ```
 $ grep -c "study"  biomed/1468-6708-3-1.txt
 3
@@ -86,7 +86,7 @@ $ grep -c "study"  biomed/1468-6708-3-1.txt
 - The `-c` command is used to count the number of lines in which the patter occurs. This is useful when dealing with large files and you want to determine the frequency of certain wrods in  a file.
 - In this case I entered `"study"`, and it shows me that it occurs on 3 lines.
 
-Example 2:
+**Example 2:**
 ```
 $ grep -c -e "study" -e "bio"  biomed/1468-6708-3-1.txt
 3
@@ -95,7 +95,7 @@ $ grep -c -e "study" -e "bio"  biomed/1468-6708-3-1.txt
 - In this case it checks for both `"study"` and `"bio"`, and counts lines which have any of the two patterns.
 
 #### `-n` command
-Example 1:
+**Example 1:**
 ```
 $ grep -n "study"  biomed/1468-6708-3-1.txt
 34:        events [ 10 ] . In this paper we study whether BMI at
@@ -105,7 +105,7 @@ $ grep -n "study"  biomed/1468-6708-3-1.txt
 - The `-n` command is used to display the line numbers of lines that correspont to a pattern and the parts of the lines that correspond to the patters. It is useful when you are searching for specific keywords in the text and the information around them, and don't have the time to search for them manually.
 - In this case I enter `"study"` as the input and it returned the lines containing the pattern and the portion of the line that corresponds to `"study"`.
 
-Example 2:
+**Example 2:**
 ```
 $ grep -n -c "report" 911report/chapter-1.txt
 56
@@ -114,7 +114,7 @@ $ grep -n -c "report" 911report/chapter-1.txt
 -Here we combine the `-n` and `-c` command line arguments to get the number of times a patthern appears in the file, in this case the patter I wanted to check was `"report"`. This can be useful when you want to find the frequency of certain words in the file for statistical purposes.
 
 #### `-r` command
-Example 1:
+**Example 1:**
 ```
 $ grep -r "torch"
 biomed/ar328.txt:        cryptorchidism.
@@ -123,5 +123,14 @@ plos/journal.pbio.0020047.txt:        Creative human beings are the torch-bearer
 ```
 - The `-r` command is used to conduct a recursive search for a pattern through all files in a directory. It diplays the instances of it's occurence in the files. This can be useful when there are a large number of files, and you need to find a pattern in the files, and the context of it's occurence.
 - In this case I entered the pattern `"torch"` and it displayed it's occurences in the directory.
+
+**Example 2:**
+```
+$ grep -r --include="*.txt" "torch" 
+biomed/ar328.txt:        cryptorchidism.
+government/Media/Legal_Aid_attorney.txt:welding torch at sculpting steel.
+plos/journal.pbio.0020047.txt:        Creative human beings are the torch-bearers of civilization. How does their creativity
+```
+- Here I used the `-r` command and the `--include` command to only search certain files, in this case that was `.txt` files. This can be useful when a directory contains multiple files of different types, and you only want to limit your search to a certain type of files.
 
   
