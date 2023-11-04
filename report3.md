@@ -111,7 +111,7 @@ $ grep -n -c "report" 911report/chapter-1.txt
 56
 
 ```
--Here we combine the `-n` and `-c` command line arguments to get the number of times a patthern appears in the file, in this case the patter I wanted to check was `"report"`. This can be useful when you want to find the frequency of certain words in the file for statistical purposes.
+- Here we combine the `-n` and `-c` command line arguments to get the number of times a patthern appears in the file, in this case the patter I wanted to check was `"report"`. This can be useful when you want to find the frequency of certain words in the file for statistical purposes.
 
 #### `-r` command
 **Example 1:**
