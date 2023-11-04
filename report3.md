@@ -54,7 +54,7 @@ the old array, and we then went through each value of our original array and sub
 
 ## Part 2: Researching Commands
 ### ```grep```
-> **SOURCE: ChatGPT**
+> **Source: ChatGPT**
 #### `-i` command
 Example 1:
 ```
@@ -116,5 +116,12 @@ $ grep -n -c "report" 911report/chapter-1.txt
 #### `-r` command
 Example 1:
 ```
-
+$ grep -r "torch"
+biomed/ar328.txt:        cryptorchidism.
+government/Media/Legal_Aid_attorney.txt:welding torch at sculpting steel.
+plos/journal.pbio.0020047.txt:        Creative human beings are the torch-bearers of civilization. How does their creativity
 ```
+- The `-r` command is used to conduct a recursive search for a pattern through all files in a directory. It diplays the instances of it's occurence in the files. This can be useful when there are a large number of files, and you need to find a pattern in the files, and the context of it's occurence.
+- In this case I entered the pattern `"torch"` and it displayed it's occurences in the directory.
+
+  
