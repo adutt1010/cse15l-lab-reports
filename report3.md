@@ -49,7 +49,8 @@ public void testReverseInPlace() {
 ```
 In the previous code, the values for the first half of the array were replaced, but in the second half, the values were swapped incorrectly, because the values we were supposed to replace
 the second half with were gone because they were removed when the first half of the array was replaced. In the updated code, we created a second array that was used to store the values of 
-the old array, and we then went through each value of our original array and substituted it with the values of the new array from the last index.
+the old array, and we then went through each value of our original array and substituted it with the values of the new array from the last index. This way the values that are supposed to be
+ supposed to be entered into the array
 
 
 
