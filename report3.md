@@ -172,7 +172,7 @@ The grep command in Unix and Unix-like operating systems is used for searching a
 These are some of the most commonly used options with the grep command. You can combine multiple options to customize the search behavior to suit your needs. For more detailed information and additional options, you can refer to the grep manual page by running man grep in your terminal.
 ```
 
-- **Implementation:** After using it to find multiple command-line options for grep, I chose 4 of the command-line options and used those in my Lab-report.
+- **Implementation:**  After using it to find multiple command-line options for grep, I chose 4 of the command-line options and used those in my Lab-report.
 
 
 I also used ChatGPT to find an additional command-line option for `-r`, as I had reached a some trouble figuring out another implementation of it.
@@ -206,4 +206,4 @@ These are some additional ways to use -r with grep to tailor your recursive sear
 ```
 
 
-- **Implementaion**: I used the `--inlcude` one that ChatGPT suggested and altered the elements to work for the files in my directory.
+- **Implementaion:**  I used the `--inlcude` one that ChatGPT suggested and altered the elements to work for the files in my directory.
