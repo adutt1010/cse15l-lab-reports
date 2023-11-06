@@ -170,11 +170,12 @@ The grep command in Unix and Unix-like operating systems is used for searching a
 
 These are some of the most commonly used options with the grep command. You can combine multiple options to customize the search behavior to suit your needs. For more detailed information and additional options, you can refer to the grep manual page by running man grep in your terminal.
 ```
-- After using it to find multiple command-line options for grep, I chose 4 of the command-line options and used those in my Lab-report.
+- **Implementation:**After using it to find multiple command-line options for grep, I chose 4 of the command-line options and used those in my Lab-report.
 
 
 I also used ChatGPT to find an additional command-line option for `-r`, as I had reached a some trouble figuring out another implementation of it.
 - **Prompt:** What are other ways to use grep -r:
+- **Output:**
 ```
 The -r option in the grep command is primarily used for recursive searching within directories and subdirectories. However, there are some additional options and ways to use -r for specific scenarios and customization:
 
@@ -199,3 +200,4 @@ Redirecting Output: You can redirect the output of a recursive search to a file 
 grep -r "pattern" directory > output.txt
 These are some additional ways to use -r with grep to tailor your recursive search to specific needs or constraints. The -r option is quite versatile and can be combined with other options to customize your search as required.
 ```
+- **Implementaion**: I used the `--inlcude` one that ChatGPT suggested and altered the elements to work for the files in my directory.
