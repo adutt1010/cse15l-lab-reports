@@ -173,5 +173,29 @@ These are some of the most commonly used options with the grep command. You can 
 - After using it to find multiple command-line options for grep, I chose 4 of the command-line options and used those in my Lab-report.
 
 
-I also used ChatGPT to find an additional command-line option for `-r`,as I had reached a little bit of a road block.
-- **Prompt:** 
+I also used ChatGPT to find an additional command-line option for `-r`, as I had reached a some trouble figuring out another implementation of it.
+- **Prompt:** What are other ways to use grep -r:
+```
+The -r option in the grep command is primarily used for recursive searching within directories and subdirectories. However, there are some additional options and ways to use -r for specific scenarios and customization:
+
+Limit the Depth of Recursion: You can use the --max-depth option in combination with -r to limit the depth of recursion. For example, to search only one level deep into subdirectories, use -r --max-depth=1.
+
+grep -r --max-depth=1 "pattern" directory
+Exclude Directories: You can use the --exclude-dir option to exclude specific directories from the recursive search. For example, to exclude the "exclude_this" directory:
+
+
+grep -r --exclude-dir="exclude_this" "pattern" directory
+Searching for Specific File Types: You can use -r in combination with the --include and --exclude options to search only in specific file types. For example, to search for "pattern" only in .txt files:
+
+
+grep -r --include="*.txt" "pattern" directory
+Combining with Other grep Options: You can combine -r with other grep options, such as -n to display line numbers or -i for a case-insensitive search, as needed for your specific search.
+
+
+grep -r -n -i "pattern" directory
+Redirecting Output: You can redirect the output of a recursive search to a file using the > or >> operators. For example, to save the results to a file called "output.txt":
+
+
+grep -r "pattern" directory > output.txt
+These are some additional ways to use -r with grep to tailor your recursive search to specific needs or constraints. The -r option is quite versatile and can be combined with other options to customize your search as required.
+```
