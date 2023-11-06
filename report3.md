@@ -133,4 +133,40 @@ plos/journal.pbio.0020047.txt:        Creative human beings are the torch-bearer
 ```
 - Here I used the `-r` command and the `--include` command to only search certain files, in this case that was `.txt` files. This can be useful when a directory contains multiple files of different types, and you only want to limit your search to a certain type of files.
 
+
+
+I used ChatGPT for a portion of this lab report. The area I used ChatGPT for was Part 2 of this lab report. My prompts for ChatGPT, and the output it gave me was:-
+- **Prompt:** find command-line options
+- **Output:**
+```
+The grep command in Unix and Unix-like operating systems is used for searching and manipulating text. It's a powerful tool for pattern matching within files or input streams. grep has a variety of command-line options to customize its behavior. Here are some commonly used grep command-line options:
+
+-i (or --ignore-case): Ignore case distinctions in both the search pattern and input files.
+
+-v (or --invert-match): Invert the sense of matching, showing lines that do not match the given pattern.
+
+-r (or --recursive): Recursively search directories and their subdirectories for matching files. This is often used for searching through directory trees.
+
+-l (or --files-with-matches): Print only the names of files that contain matching lines, rather than the actual matching lines.
+
+-n (or --line-number): Prefix each line with the line number within its input file.
+
+-c (or --count): Display only the count of matching lines in each file, rather than the lines themselves.
+
+-w (or --word-regexp): Match whole words only. For example, if you search for "word," it won't match "subword."
+
+-A (or --after-context): Show N lines of trailing context after a match. For example, -A 3 will display the line containing the match and the three lines that follow it.
+
+-B (or --before-context): Show N lines of leading context before a match. For example, -B 2 will display the line containing the match and the two lines that precede it.
+
+-E (or --extended-regexp): Interpret the pattern as an extended regular expression, which allows for more advanced pattern matching.
+
+-F (or --fixed-strings): Treat the pattern as a fixed string, not a regular expression. Useful when you want to search for a specific string without special characters being interpreted.
+
+-m (or --max-count): Stop after finding N matching lines. This is useful when you want to limit the number of matches.
+
+-q (or --quiet): Quiet mode. It suppresses output and is typically used in scripts to check for the existence of a pattern without displaying matching lines.
+
+These are some of the most commonly used options with the grep command. You can combine multiple options to customize the search behavior to suit your needs. For more detailed information and additional options, you can refer to the grep manual page by running man grep in your terminal.
+```
   
