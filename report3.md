@@ -139,6 +139,7 @@ plos/journal.pbio.0020047.txt:        Creative human beings are the torch-bearer
 I used ChatGPT for a portion of this lab report. The area I used ChatGPT for was Part 2 of this lab report. My prompts for ChatGPT, and the output it gave me was:-
 - **Prompt:** find command-line options
 - **Output:**
+  
 ```
 The grep command in Unix and Unix-like operating systems is used for searching and manipulating text. It's a powerful tool for pattern matching within files or input streams. grep has a variety of command-line options to customize its behavior. Here are some commonly used grep command-line options:
 
@@ -176,6 +177,7 @@ These are some of the most commonly used options with the grep command. You can 
 I also used ChatGPT to find an additional command-line option for `-r`, as I had reached a some trouble figuring out another implementation of it.
 - **Prompt:** What are other ways to use grep -r:
 - **Output:**
+
 ```
 The -r option in the grep command is primarily used for recursive searching within directories and subdirectories. However, there are some additional options and ways to use -r for specific scenarios and customization:
 
