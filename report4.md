@@ -17,7 +17,7 @@ cd lab7
 ls
 bash test.sh
 ```
-
+This was used to enter the directory of the file I cloned and running the tests.
 ## Editing the code to fix the file
 ![image](images/labrep4D.png)
 Command :
@@ -36,3 +36,15 @@ Command :
 ```
 bash test.sh
 ```
+This was used to run the tests again to see if they were succesful after the changes.
+
+## Pushing the changes
+![image](images/labrep4B.png)
+Command :
+```
+git add . #This is used to stage changes for the next commit for all files in the directory 
+git commit -m "Changes made" #This is used to save the changes for all files in your local respository
+git push #This is used to save the changes to the github repository
+```
+This was used to ensure that the changes were made on the forkerd repository on my github. I have attached a screenshot showing that the changes were succesfully made in github.
+[image](images/labrep413.png)
