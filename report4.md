@@ -24,7 +24,7 @@ bash test.sh
 This was used to enter the directory of the file I cloned and running the tests.
 
 
-## Editing the code to fix the file
+## Editing the code to ensure the test runs successfully
 ![image](images/labrep4D.png)
 Command :
 `vim ListExamples.java `
