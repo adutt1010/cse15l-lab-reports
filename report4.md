@@ -61,4 +61,4 @@ git push #This is used to save the changes to the github repository
 ```
 This was used to ensure that the changes were made on the forkerd repository on my github. I have attached a screenshot showing that the changes were succesfully made in github.
 
-[image](images/labrep413.png)
+![image](images/labrep413.png)
