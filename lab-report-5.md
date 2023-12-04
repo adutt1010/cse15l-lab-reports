@@ -135,4 +135,4 @@ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUn
  
 ## Reflection
 The second half of the quarter was very interesting. I learned a lot from the labs. Some things that I believe will help me through my journey in computer science is the jdb debugger.
-It can help me isolate bugs and solve issues with programming. Even vim is extremely interesting with editing files on command line. I used to believe that we always needed somehting like VSCode or Eclipse to edit it.
+It can help me isolate bugs and solve issues with programming. Even vim is extremely interesting with editing files on command line. I used to believe that we always needed somehting like VSCode or Eclipse to edit it. This has been an incredible experience and I thoroughly enjoyed my time in CSE 15L.
