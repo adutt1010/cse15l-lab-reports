@@ -41,7 +41,7 @@ lab7
     - junit-4.13.2.jar
 
 
-- Contents of ListExamples.java:
+- Contents of ListExamples.java before fixing the bug:
 
 ```
 import java.util.ArrayList;
