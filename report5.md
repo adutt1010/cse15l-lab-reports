@@ -33,17 +33,14 @@ I went into `ListExamples.java`, and tried analyzing the various `while` loops. 
 
 lab7
 
-|-- ListExamples.java
+- lab7
+  - ListExamples.java
+  - ListExamplesTest.java
+  - test.sh
+  - lib
+    - hamcrest-core-1.3.jar
+    - junit-4.13.2.jar
 
-|-- ListExamplesTest.java
-
-|-- test.sh
-
-|-- lib
-
-|-- lib | -- hamcrest-core-1.3.jar
-
-|-- lib | -- junit-4.13.2.jar
 
 - Contents of ListExamples.java:
 ```
