@@ -53,6 +53,12 @@ This was used to run the tests again to see if they were succesful after the cha
 
 ## Pushing the changes
 ![image](images/labrep4B.png)
+
+
+
+
+
+
 Command :
 ```
 git add . #This is used to stage changes for the next commit for all files in the directory
