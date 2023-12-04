@@ -5,8 +5,7 @@
 ### Title : Question regarding bug in Lab 7
 
 ### Description :
-In the lab7 folder, I tried running test.sh in order to run the tests. When I ran the tests, I ended up getting an error message stating that one of the tests had failed. The test that failed
-was `testMerge2()`. I have attached the screenshot of the symptom.
+In the `lab7` folder, I tried running `test.sh` in order to run the tests. When I ran the tests, I ended up getting an error message stating that one of the tests had failed. The test that failed was `testMerge2()`. I have attached the screenshot of the symptom.
 ![image](images/symptomlr5.png)
 
 I believe that the error is caused from the method `merge(List<String> list1, List<String> list2)`. I believe that there may be an infinite while loop but I don't know where and why it occurs.
