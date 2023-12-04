@@ -40,6 +40,6 @@ lab7
 
 |-- lib
 
-|   |-- hamcrest-core-1.3.jar
+|     |-- hamcrest-core-1.3.jar
 
-|   |-- junit-4.13.2.jar
+|     |-- junit-4.13.2.jar
