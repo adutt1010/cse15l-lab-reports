@@ -31,10 +31,16 @@ I went into `ListExamples.java`, and tried analyzing the various `while` loops. 
 
 Here is the repository structure 
 lab7
+
 |-- ListExamples.java
+
 |-- ListExamplesTest.java
+
 |-- test.sh
+
 |-- lib
+
 |   |-- hamcrest-core-1.3.jar
+
 |   |-- junit-4.13.2.jar
 
