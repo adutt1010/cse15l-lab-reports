@@ -135,3 +135,8 @@ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUn
 ```
 
 - To fix the bugs, you must edit the code in the last `while` loop in the file `ListExamples.java`. In the last `while` loop, at line 44, you should change `index1` to `index2`. If you run the tests now, you will see that all the tests pass.
+
+
+## Reflection
+
+In the second half of this quarter I learned how to use vim. I believe this is a huge asset and can be used for text file editiing. I believe that this is a huge component in CSE 30. I also became extremely comfortable with github in the second half learning how to fork repositories and push changes. This would be incredibly useful when working on projects comprising of teams of multiple people. We even learned how to debug using jdb. This enables us to isolate bugs by going through the program line by line.
