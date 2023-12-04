@@ -17,7 +17,7 @@ Good job, you have succesfully narrowed down the error to one of the while loops
 
 Hint: The third `while` performs operations using the second list. Compare this to the second while loop, which performs operations using the first list, and try to find the error based on 
 how the second while loop is designed. Try using the second while loop as a road map.
-`
+
 
 ## 3. The information received from TA
 
@@ -128,9 +128,10 @@ public class ListExamplesTests {
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests
 ```
-- The command line I ran to trigger the bug was `bash test.sh`
-- This ran the commands in the `test.sh` file, which contained two commands
+- The command line I ran to trigger the bug was `bash test.sh`.This ran the commands in the `test.sh` file, which contained two commands
 ```
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests
 ```
+
+- To fix the bugs, you must edit the code in the last `while` loop in the file `ListExamples.java`. In the last `while` loop, at line 44, you should change `index1` to `index2`. If you run the tests now, you will see that all the tests pass.
