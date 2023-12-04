@@ -38,8 +38,6 @@ lab7
 
 ├── test.sh
 
-└── lib
-
+└── lib <br>
     ├── hamcrest-core-1.3.jar
-    
     └── junit-4.13.2.jar
