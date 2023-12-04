@@ -43,6 +43,7 @@ lab7
 
 
 - Contents of ListExamples.java:
+
 ```
 import java.util.ArrayList;
 import java.util.List;
@@ -97,6 +98,7 @@ class ListExamples {
 ```
 
 - Contents of ListExamplesTests.java
+
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
