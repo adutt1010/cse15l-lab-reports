@@ -30,6 +30,7 @@ I went into `ListExamples.java`, and tried analyzing the various `while` loops. 
 ## 4. Information required for understanding the setup
 
 Here is the repository structure 
+
 lab7
 
 |-- ListExamples.java
@@ -40,7 +41,8 @@ lab7
 
 |-- lib
 
-|   |-- hamcrest-core-1.3.jar
+|-- lib | -- hamcrest-core-1.3.jar
 
-|   |-- junit-4.13.2.jar
+|-- lib | -- junit-4.13.2.jar
 
+Contents of 
