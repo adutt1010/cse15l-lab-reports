@@ -130,4 +130,9 @@ public class ListExamplesTests {
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests
 ```
-
+- The command line I ran to trigger the bug was `bash test.sh`
+- This ran the commands in the `test.sh` file, which contained two commands
+```
+javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
+java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests
+```
